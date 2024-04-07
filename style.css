@@ -1,0 +1,101 @@
+:root {
+  --color-primary-nut: hsl(14, 45%, 36%);
+  --color-primary-ras: hsl(332, 51%, 32%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-rosewhite: hsl(330, 100%, 98%);
+  --neutral-eggshell: hsl(30, 54%, 90%);
+  --neutral-lightgrey: hsl(30, 18%, 87%);
+  --neutral-wengebrown: hsl(30, 10%, 34%);
+  --neutral-darkcharcoal: hsl(24, 5%, 18%);
+}
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--neutral-eggshell);
+  display: grid;
+  place-items: center;
+}
+h1 {
+  font-size: 2.5rem;
+  color: var(--neutral-darkcharcoal);
+}
+h2 {
+  color: var(--color-primary-nut);
+}
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  margin: 20px 40px;
+}
+h3 {
+  margin-left: 60px;
+}
+
+.preparation {
+  margin-left: 40px;
+}
+
+ul li,
+ol li {
+  margin: 20px 20px;
+  color: var(--neutral-wengebrown);
+}
+p {
+  margin: 20px 40px;
+  color: var(--neutral-wengebrown);
+}
+article {
+  display: grid;
+  justify-content: center;
+  background-color: var(--neutral-white);
+  width: 800px;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+article img {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+div.prepare {
+  background-color: var(--neutral-rosewhite);
+  margin: 0px 30px;
+  border-radius: 10px;
+}
+div.prepare h3 {
+  color: var(--color-primary-ras);
+}
+div.prepare span {
+  font-weight: bold;
+  color: var(--neutral-darkcharcoal);
+}
+
+hr {
+  border: 1px solid var(--neutral-lightgrey); /* Garis solid hitam dengan ketebalan 1px */
+  width: 90%; /* Lebar garis horizontal */
+  margin: 20px auto; /* Margin diatur secara otomatis untuk menengahkan garis */
+}
+
+ol li span {
+  font-weight: bold;
+  color: var(--neutral-wengebrown);
+}
+
+table {
+  border-collapse: collapse; /* Menggabungkan batas sel menjadi satu */
+  margin: 20px 40px;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
